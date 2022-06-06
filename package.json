@@ -4,7 +4,7 @@
   "description": "description",
   "main": "index.js",
   "scripts": {
-    "cy:run1": "cypress run --record --key dd1b8f12-3539-4d0a-9149-7e8506971c42",
+    "cy:run1": "cypress run --record --spec cypress/integration/2-advanced-examples/actions.spec.js --key dd1b8f12-3539-4d0a-9149-7e8506971c42 --parallel",
 		"cy:open": "cypress open",
     "cy:run2": "cypress run --spec cypress/integration/2-advanced-examples/actions.spec.js "
   },
